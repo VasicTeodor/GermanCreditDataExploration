@@ -1,0 +1,68 @@
+  OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Odobren kredit   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 7.069e+26
+Date:                Sat, 30 Sep 2023   Prob (F-statistic):               0.00
+Time:                        20:12:34   Log-Likelihood:                 28658.
+No. Observations:                1000   AIC:                        -5.724e+04
+Df Residuals:                     961   BIC:                        -5.705e+04
+Df Model:                          38                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================================
+                                                                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------
+const                                                      -7.286e-17   7.18e-15     -0.010      0.992   -1.42e-14     1.4e-14
+Trajanje računa                                            -1.021e-15   3.17e-16     -3.222      0.001   -1.64e-15   -3.99e-16
+Iznos kredita                                              -1.719e-17   1.39e-18    -12.362      0.000   -1.99e-17   -1.45e-17
+Godine starosti                                             4.408e-16   2.79e-16      1.581      0.114   -1.06e-16    9.88e-16
+Zaposlenost                                                -9.593e-16   2.53e-15     -0.379      0.705   -5.93e-15    4.01e-15
+Radnik stranac                                             -3.834e-16   1.55e-14     -0.025      0.980   -3.08e-14    3.01e-14
+Odobren kredit                                                 1.0000   7.11e-15   1.41e+14      0.000       1.000       1.000
+Stanje na računu_0 <= <200 DM                               1.804e-16   5.67e-15      0.032      0.975   -1.09e-14    1.13e-14
+Stanje na računu_<0 DM                                      4.545e-16   5.69e-15      0.080      0.936   -1.07e-14    1.16e-14
+Stanje na računu_>= 200 DM                                 -6.453e-16   9.13e-15     -0.071      0.944   -1.86e-14    1.73e-14
+Stanje na računu_nema računa u ovoj banci                  -2.359e-16   5.45e-15     -0.043      0.966   -1.09e-14    1.05e-14
+Istorija kredita_drugi krediti plaćani na vreme             -1.11e-16   5.64e-15     -0.020      0.984   -1.12e-14     1.1e-14
+Istorija kredita_kašnjenje sa uplatama                      1.769e-16      9e-15      0.020      0.984   -1.75e-14    1.78e-14
+Istorija kredita_kritičan račun                            -1.665e-16    6.7e-15     -0.025      0.980   -1.33e-14     1.3e-14
+Istorija kredita_nema uzetih kredita                        1.874e-16   1.23e-14      0.015      0.988    -2.4e-14    2.44e-14
+Istorija kredita_svi krediti u ovoj banci vraćeni na vreme -1.943e-16   1.14e-14     -0.017      0.986   -2.25e-14    2.21e-14
+Svrha uzimanja_automobil (nov)                             -4.788e-16   7.56e-15     -0.063      0.950   -1.53e-14    1.44e-14
+Svrha uzimanja_automobil (polovan)                          1.908e-16   1.01e-14      0.019      0.985   -1.96e-14    1.99e-14
+Svrha uzimanja_bela tehnika                                 8.465e-16   2.39e-14      0.035      0.972   -4.61e-14    4.77e-14
+Svrha uzimanja_biznis                                       5.551e-17   1.02e-14      0.005      0.996      -2e-14    2.01e-14
+Svrha uzimanja_muzička tehnika/televizija                  -7.806e-16   7.48e-15     -0.104      0.917   -1.55e-14    1.39e-14
+Svrha uzimanja_nameštaj                                     2.776e-16   8.23e-15      0.034      0.973   -1.59e-14    1.64e-14
+Svrha uzimanja_obrazovanje                                 -3.816e-16   1.28e-14     -0.030      0.976   -2.55e-14    2.47e-14
+Svrha uzimanja_ostalo                                       3.331e-16   2.48e-14      0.013      0.989   -4.83e-14     4.9e-14
+Svrha uzimanja_popravka                                     3.816e-16    1.8e-14      0.021      0.983   -3.49e-14    3.57e-14
+Svrha uzimanja_prekvalifikovanje                           -1.665e-16   2.76e-14     -0.006      0.995   -5.44e-14    5.41e-14
+Račun za štednju_100 <= <500 DM                             1.735e-17   8.14e-15      0.002      0.998    -1.6e-14     1.6e-14
+Račun za štednju_500 <= < 1000 DM                          -1.249e-16   9.92e-15     -0.013      0.990   -1.96e-14    1.93e-14
+Račun za štednju_<100 DM                                    2.151e-16   5.18e-15      0.042      0.967   -9.95e-15    1.04e-14
+Račun za štednju_>= 1000 DM                                -2.776e-16   1.11e-14     -0.025      0.980   -2.21e-14    2.15e-14
+Račun za štednju_nema račun za štednju                      1.665e-16   6.82e-15      0.024      0.981   -1.32e-14    1.36e-14
+Pol i bračni staus_muško, neoženjen                        -6.072e-18   5.48e-15     -0.001      0.999   -1.08e-14    1.07e-14
+Pol i bračni staus_muško, oženjen/udovac                   -6.939e-18   8.16e-15     -0.001      0.999    -1.6e-14     1.6e-14
+Pol i bračni staus_muško, razveden                         -1.466e-16   1.05e-14     -0.014      0.989   -2.08e-14    2.05e-14
+Pol i bračni staus_žensko, udata/razvedena                 -2.116e-16   5.75e-15     -0.037      0.971   -1.15e-14    1.11e-14
+Žirant Ko-aplikant_ko-aplikant                              2.012e-16   1.09e-14      0.018      0.985   -2.13e-14    2.17e-14
+Žirant Ko-aplikant_nema                                    -3.816e-17   6.68e-15     -0.006      0.995   -1.31e-14    1.31e-14
+Žirant Ko-aplikant_žirant                                  -1.145e-16   1.04e-14     -0.011      0.991   -2.05e-14    2.03e-14
+Imovina_automobil ili drugo                                 6.245e-17   5.79e-15      0.011      0.991   -1.13e-14    1.14e-14
+Imovina_nema                                                2.021e-16   9.72e-15      0.021      0.983   -1.89e-14    1.93e-14
+Imovina_poseduje nekretninu                                 2.325e-16   5.94e-15      0.039      0.969   -1.14e-14    1.19e-14
+Imovina_ulaganje u nekretnine/životno osiguranje           -3.799e-16   6.06e-15     -0.063      0.950   -1.23e-14    1.15e-14
+Plaćanje u ratama_banka                                     -1.11e-16   7.13e-15     -0.016      0.988   -1.41e-14    1.39e-14
+Plaćanje u ratama_nema                                     -4.163e-17   5.81e-15     -0.007      0.994   -1.14e-14    1.14e-14
+Plaćanje u ratama_radnja                                    9.714e-17   9.92e-15      0.010      0.992   -1.94e-14    1.96e-14
+Stan/Kuća_poseduje                                          3.261e-16   6.04e-15      0.054      0.957   -1.15e-14    1.22e-14
+Stan/Kuća_stanarina                                        -2.567e-16   6.72e-15     -0.038      0.970   -1.34e-14    1.29e-14
+Stan/Kuća_živi besplatno                                    2.637e-16   1.08e-14      0.024      0.981   -2.09e-14    2.14e-14
+==============================================================================
+Omnibus:                      329.680   Durbin-Watson:                   0.841
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              908.606
+Skew:                           1.702   Prob(JB):                    5.00e-198
+Kurtosis:                       6.197   Cond. No.                     8.23e+17
+==============================================================================

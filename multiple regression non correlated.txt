@@ -1,0 +1,31 @@
+OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Iznos kredita   R-squared:                       0.220
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     35.00
+Date:                Sat, 30 Sep 2023   Prob (F-statistic):           6.23e-49
+Time:                        20:35:07   Log-Likelihood:                -9239.5
+No. Observations:                1000   AIC:                         1.850e+04
+Df Residuals:                     991   BIC:                         1.854e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================================================
+                                                                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------
+const                                                            2943.6663    251.251     11.716      0.000    2450.621    3436.711
+Kamata – u procentima od tekućih prihoda                         -740.9401     71.501    -10.363      0.000    -881.250    -600.630
+Prebivalište (u godinama)                                          63.0221     72.554      0.869      0.385     -79.356     205.400
+Postojeći kredit u ovoj banci                                      85.1967    139.109      0.612      0.540    -187.785     358.178
+Izdržavani: broj lica koji zavise od prihoda aplikanta             96.0052    223.095      0.430      0.667    -341.787     533.797
+Vrsta posla_nema zvanično obrazovanje: ima stalan posao           -58.9854    207.794     -0.284      0.777    -466.752     348.781
+Vrsta posla_nezposlen/nema zvanično obrazovanje                  -160.0479    429.224     -0.373      0.709   -1002.341     682.245
+Vrsta posla_radi u menadžmentu/samo-zaposlen/visoko obrazovanje  2577.3740    225.847     11.412      0.000    2134.181    3020.567
+Vrsta posla_zaposlen i ima zvanično obrazovanje                   585.3257    162.961      3.592      0.000     265.538     905.114
+Telefon_ima                                                      1921.6788    161.859     11.873      0.000    1604.054    2239.304
+Telefon_nema                                                     1021.9875    146.645      6.969      0.000     734.218    1309.757
+==============================================================================
+Omnibus:                      309.624   Durbin-Watson:                   1.975
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              903.999
+Skew:                           1.557   Prob(JB):                    5.00e-197
+Kurtosis:                       6.464   Cond. No.                     1.58e+16
+==============================================================================

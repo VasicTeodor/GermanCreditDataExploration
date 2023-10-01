@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<attributeset default_source="german_credit.dat">
+  <attribute
+    name       = "Stanje_na_racunu"
+    sourcecol  = "1"
+    valuetype  = "nominal">
+    <value>A11</value>
+    <value>A12</value>
+    <value>A14</value>
+    <value>A13</value>
+  </attribute>
+
+  <attribute
+    name       = "Trajanje"
+    sourcecol  = "2"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Istorija_kredita"
+    sourcecol  = "3"
+    valuetype  = "nominal">
+    <value>A34</value>
+    <value>A32</value>
+    <value>A33</value>
+    <value>A30</value>
+    <value>A31</value>
+  </attribute>
+
+  <attribute
+    name       = "Svrha_uzimanja"
+    sourcecol  = "4"
+    valuetype  = "nominal">
+    <value>A43</value>
+    <value>A46</value>
+    <value>A42</value>
+    <value>A40</value>
+    <value>A41</value>
+    <value>A49</value>
+    <value>A44</value>
+    <value>A45</value>
+    <value>A410</value>
+    <value>A48</value>
+  </attribute>
+
+  <attribute
+    name       = "Iznos"
+    sourcecol  = "5"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Račun_za_stednju"
+    sourcecol  = "6"
+    valuetype  = "nominal">
+    <value>A65</value>
+    <value>A61</value>
+    <value>A63</value>
+    <value>A64</value>
+    <value>A62</value>
+  </attribute>
+
+  <attribute
+    name       = "Zaposlenost"
+    sourcecol  = "7"
+    valuetype  = "nominal">
+    <value>A75</value>
+    <value>A73</value>
+    <value>A74</value>
+    <value>A71</value>
+    <value>A72</value>
+  </attribute>
+
+  <attribute
+    name       = "Kamata"
+    sourcecol  = "8"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Pol_i_bracni_staus"
+    sourcecol  = "9"
+    valuetype  = "nominal">
+    <value>A93</value>
+    <value>A92</value>
+    <value>A91</value>
+    <value>A94</value>
+  </attribute>
+
+  <attribute
+    name       = "Zirant_KoAplikant"
+    sourcecol  = "10"
+    valuetype  = "nominal">
+    <value>A101</value>
+    <value>A103</value>
+    <value>A102</value>
+  </attribute>
+
+  <attribute
+    name       = "Prebivaliste"
+    sourcecol  = "11"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Imovina"
+    sourcecol  = "12"
+    valuetype  = "nominal">
+    <value>A121</value>
+    <value>A122</value>
+    <value>A124</value>
+    <value>A123</value>
+  </attribute>
+
+  <attribute
+    name       = "Starost"
+    sourcecol  = "13"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Placanja_u_ratama"
+    sourcecol  = "14"
+    valuetype  = "nominal">
+    <value>A143</value>
+    <value>A141</value>
+    <value>A142</value>
+  </attribute>
+
+  <attribute
+    name       = "Stan_Kuca"
+    sourcecol  = "15"
+    valuetype  = "nominal">
+    <value>A152</value>
+    <value>A153</value>
+    <value>A151</value>
+  </attribute>
+
+  <attribute
+    name       = "Postojeci_Krediti"
+    sourcecol  = "16"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Vrsta_posla"
+    sourcecol  = "17"
+    valuetype  = "nominal">
+    <value>A173</value>
+    <value>A172</value>
+    <value>A174</value>
+    <value>A171</value>
+  </attribute>
+
+  <attribute
+    name       = "Izdrzavani"
+    sourcecol  = "18"
+    valuetype  = "integer"/>
+
+  <attribute
+    name       = "Telefon"
+    sourcecol  = "19"
+    valuetype  = "nominal">
+    <value>A192</value>
+    <value>A191</value>
+  </attribute>
+
+  <attribute
+    name       = "Radnik_Stranac"
+    sourcecol  = "20"
+    valuetype  = "nominal">
+    <value>A201</value>
+    <value>A202</value>
+  </attribute>
+
+  <label
+    name       = "Odobren_Kredit"
+    sourcecol  = "21"
+    valuetype  = "nominal">
+	<value>1</value>
+    <value>2</value>
+  </label>
+
+</attributeset>
